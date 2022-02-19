@@ -1,0 +1,21 @@
+
+body {
+    font-size: 1200;
+    border: 1px solid #000;
+}
+#button {
+    display: none;
+    border-radius: 15px;
+    text-align: end;
+    font-size: larger;
+
+}
+.div {
+
+    border-radius: 15px;
+    text-align: end;
+}
+
+h4 {
+    font-size: large;
+}
