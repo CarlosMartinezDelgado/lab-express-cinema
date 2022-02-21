@@ -9,7 +9,7 @@ const moviSchema = new mongoose.Schema( {
         type: String
     },
     stars: {
-        type: [Array]
+        type: Array
     },
     image: {
         type: String

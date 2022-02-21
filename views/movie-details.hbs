@@ -1,15 +1,21 @@
+<img src="{{response.image}}" alt="Foto">
 
-<div>
+<div class="details">
     <p> <a href="/movies/">Go back</a></p>
     <h2> {{response.title}}</h2>
 
-    <img src="{{response.image}}" alt="Foto">
+    
 
 <h3> Director: {{response.director}}</h3>
 <h4>Stars</h4>
-<ul> <li> {{response.stars}}</li> </ul>
+<ul>{{#each response.stars}}
+ <li>{{this}}</li>
+{{/each}}</ul>
 <p> {{response.description}}</p>
-<p> {{response.showtimes}}</p>
+{{#each response.showtimes}}
+ {{this}} |
+{{/each}}
+
 
 
 

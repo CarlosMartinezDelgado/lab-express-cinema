@@ -6,3 +6,46 @@ body {
 a {
   color: #00B7FF;
 }
+
+#index {
+  background-image: url("../images/cinema.jpg");
+  width: 1000px;
+  height: 550px;
+  text-align: right;
+
+
+  
+}
+
+button {
+  border-style: none;
+  border: 1px solid #000;
+  border-radius: 20px;
+  color: rgb(125, 196, 219);
+  padding: 10px;
+  text-align: none;
+ 
+
+}
+
+.index {
+  position: fixed;
+  left: 500px;
+  font-size: 50px;
+  color: white;
+  border-style: solid;
+  border-width: 30px 100px;
+  border-color: transparent;
+  text-align: left;
+  
+
+}
+
+.movies {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+
+}
